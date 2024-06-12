@@ -1,7 +1,6 @@
 services:
   lucee:
-    image: lucee/lucee:6.1.0.187-SNAPSHOT
-    # image: lucee/lucee:6.0.0.477-SNAPSHOT-light
+    image: lucee/lucee:6.1.0.193-RC
     ports:
       - "8854:8888" # tomcat
       - "8054:80" # nginx
