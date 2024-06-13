@@ -2,8 +2,8 @@ services:
   lucee:
     image: lucee/lucee:6.1.0.193-RC
     ports:
-      - "8854:8888" # tomcat
-      - "8054:80" # nginx
+      - "8888:8888" # tomcat
+      - "8080:80" # nginx
     volumes:
       - ./code/:/var/www
       - "./patches:/opt/lucee/server/lucee-server/patches" # used to inject custom patch
