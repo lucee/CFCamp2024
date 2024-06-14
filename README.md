@@ -17,3 +17,9 @@ docker-compose up
 ```
 
 And you can then access the server on http://localhost:8888
+
+## Lucee 6.1-RC
+
+Sprint board (including known regressions)
+
+https://luceeserver.atlassian.net/jira/software/c/projects/LDEV/boards/53
